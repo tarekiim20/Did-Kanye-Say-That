@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Did Kanye say that?</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <video src="No.mp4"></video>
+    <div class="container">
+      <div class="flex-box">
+        <h1>Did Kanye say that?</h1>
+        <div class="main">
+          <div class="pic">
+            <img src="kanye west face.png" alt="kanye west face" />
+            <div style="display: none" class="hidden"><%=randomization%></div>
+            <div class="quote">
+              <div><%=quote%></div>
+              <div></div>
+              <div></div>
+              <div></div>
+            </div>
+          </div>
+        </div>
+        <div class="buttons">
+          <!-- <form name="answer"> -->
+            <button type="submit" value="Yes" id="Yes">Yes</button>
+            <button type="submit" value="No" id="No">No</button>
+          <!-- </form> -->
+        </div>
+      </div>
+    </div>
+    <script src="local.js"></script>
+  </body>
+</html>

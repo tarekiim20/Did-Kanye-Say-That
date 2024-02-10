@@ -1,0 +1,124 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Press Start 2P", system-ui;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(91 89 157 / 81%);
+}
+.container {
+  width: 80%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  flex-shrink: 0;
+  flex-basis: auto;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  color: white;
+  size: 5rem;
+  text-align: center;
+  margin-top: 1rem;
+}
+
+.quote {
+  position: absolute;
+  padding: 10px;
+  background: transparent;
+  left: 360px;
+  bottom: 160px;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 500px;
+}
+
+.quote div:first-child {
+  height: 200px;
+  align-items: center;
+  width: auto;
+  background: antiquewhite;
+  display: flex;
+  border-radius: 30%;
+  font-size: 0.9rem;
+  margin-left: 30px;
+  padding: 15px;
+}
+
+.quote div:nth-child(2) {
+  height: 50px;
+  background-color: white;
+  border-radius: 50%;
+  width: 50px;
+  margin-left: 80px;
+}
+.quote div:nth-child(3) {
+  height: 35px;
+  background-color: white;
+  border-radius: 50%;
+  width: 35px;
+  margin-left: 40px;
+}
+
+.quote div:nth-child(4) {
+  height: 25px;
+  background-color: white;
+  border-radius: 50%;
+  width: 25px;
+}
+
+.pic {
+  position: relative;
+  width: 500px;
+  height: 500px;
+}
+
+.flex-box {
+  width: max-content;
+  min-width: max-content;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+img {
+  height: 500px;
+  margin-left: 100px;
+}
+
+.buttons {
+  font-size: 0.8rem;
+  text-align: center;
+}
+
+button {
+  padding: 5px 10px;
+  border: 5px solid green;
+  border-radius: 5px;
+  background-color: gre;
+}
+
+#No {
+  border: 5px solid red;
+}
+
+video {
+  position: absolute;
+  z-index: 1;
+  border: 10px solid red;
+  border-radius: 20px;
+  display: none;
+  width: 99vw;
+}
